@@ -4,10 +4,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1 {
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+h2 {
+    color: #2f81ce;
+font-size: 30px;
+}
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
+    background-color:#F7F7F7;
     color: #333;
 }
 
@@ -21,14 +31,14 @@ header {
 
 /* Main Content */
 .container {
-    width: 80%;
+    width: 70%;
     max-width: 1200px;
-    margin: 30px auto;
+    margin: 10px auto;
 }
 
 main {
     background-color: #ffffff;
-    padding: 30px;
+    padding: 50px;
     border-radius: 8px;
     min-height: 400px;
 }
@@ -51,10 +61,20 @@ footer {
 
     main {
         border-radius: 0;
-        padding: 20px;
+        padding: 40px;
     }
 
     header {
         padding: 20px;
     }
+}
+hr.gradient {
+  height: 3px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(
+    90deg,
+    #2f81ce 0%,  /* start color */
+    #ffffff 100%  /* end color (white) */
+  );
 }
