@@ -5,8 +5,9 @@
     box-sizing: border-box;
 }
 h1 {
-  font-size: 40px;
+  font-size: 35px;
   letter-spacing: 1px;
+ color:#0e2259;
 }
 
 h2 {
