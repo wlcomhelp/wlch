@@ -85,6 +85,6 @@ hr.gradient {
   background: linear-gradient(
     90deg,
     #2f81ce 0%,  /* start color */
-    #ffffff 100%  /* end color (white) */
+    #e6f3ff 100%  /* end color (white) */
   );
 }
