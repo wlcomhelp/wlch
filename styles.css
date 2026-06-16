@@ -37,10 +37,9 @@ body {
     background-size: 100% auto;
     background-position: top center;
     background-repeat: no-repeat;
-    background-color:#e6f3ff;
     padding-top: 40px;
     padding-bottom: 40px; 
-    opacity: 0.5;
+    
 }
 
 /* Header */
@@ -48,7 +47,7 @@ header {
     background-color: #ffffff;
     padding: 30px 20px;
     text-align: right;
-    border-bottom: 1px solid #ddd;
+    border-bottom: px solid #ddd;
 }
 
 /* Main Content */
@@ -56,6 +55,8 @@ header {
     width: 70%;
     max-width: 1200px;
     margin: 10px auto;
+    background-color:#ffffff;
+    opacity: 0.5;
 }
 
 main {
