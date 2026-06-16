@@ -87,6 +87,11 @@ footer {
         margin: 0;
     }
 
+    .container1 {
+        width: 100%;
+        margin: 0;
+    }
+
     main {
         border-radius: 0;
         padding: 30px;
